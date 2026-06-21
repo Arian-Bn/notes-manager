@@ -25,4 +25,4 @@ RUN rm -rf build
 RUN cmake -B build -DCMAKE_CXX_STANDARD=20
 RUN cmake --build build
 
-CMD ["./build/notes_manager"]
+CMD ["./build/test_runner"]
