@@ -83,10 +83,7 @@ docker build -t notes-manager .
 # Run tests in container
 docker run --rm notes-manager ./build/test_runner
 
-# Run application (requires X11 server)
-docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix notes-manager
 ```
-
 ---
 
 ## Screenshots
