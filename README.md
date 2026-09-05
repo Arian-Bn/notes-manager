@@ -74,6 +74,12 @@ cmake --build build
 ./build/notes_manager
 ```
 
+## 🐳 Docker
+
+### Pull from Docker Hub
+```bash
+docker pull arian-bn/notes-manager:latest
+
 ### Docker Build
 
 ```bash
